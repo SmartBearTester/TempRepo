@@ -8,7 +8,7 @@
     <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:dataSource type="Data Generator">
         <con:configuration>
-          <generatedDataCount>10</generatedDataCount>
+          <generatedDataCount>20</generatedDataCount>
           <generatorsTotalNumber>2</generatorsTotalNumber>
           <lastSelectedProperty>-1</lastSelectedProperty>
           <GeneratorType0>CUSTOM</GeneratorType0>
@@ -42,7 +42,7 @@
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
         <con:encoding>UTF-8</con:encoding>
-        <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+        <con:endpoint>http://test/SOAP/Service1.asmx</con:endpoint>
         <con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>\r
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
    <soapenv:Header />\r
