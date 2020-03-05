@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="79e31642-0c4f-4752-9cf1-624635b23dec" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="79e31642-0c4f-4752-9cf1-624635b23decfileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:testStep type="datasource" name="DataSource" id="81b1480f-799b-4bb9-af51-0dfea628129d">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:dataSource type="Data Generator">
+        <con:configuration>
+          <generatedDataCount>10</generatedDataCount>
+          <generatorsTotalNumber>2</generatorsTotalNumber>
+          <lastSelectedProperty>-1</lastSelectedProperty>
+          <GeneratorType0>CUSTOM</GeneratorType0>
+          <PropertyName0>x</PropertyName0>
+          <repetitionCountx>0</repetitionCountx>
+          <repeatValuesx>false</repeatValuesx>
+          <CustomStringDataGeneratorFormatx>%STR(5,10,True,True,True,True)</CustomStringDataGeneratorFormatx>
+          <GeneratorType1>CUSTOM</GeneratorType1>
+          <PropertyName1>y</PropertyName1>
+          <repetitionCounty>0</repetitionCounty>
+          <repeatValuesy>false</repeatValuesy>
+          <CustomStringDataGeneratorFormaty>%STR(5,10,True,True,True,True)</CustomStringDataGeneratorFormaty>
+          <escapeSpaceSequence/>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>x</con:property>
+      <con:property>y</con:property>
+      <con:completeLastOperation>true</con:completeLastOperation>
+      <con:restartOnRun>true</con:restartOnRun>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" id="76bff9da-5194-4932-a7a1-4ba376c09e82" name="SOAP Request">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>Test_serviceSoap</con:interface>
+      <con:operation>Con_Stroka</con:operation>
+      <con:request name="SOAP Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="65ed54de-3ead-46e5-9a75-3924ac3708c3">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+        <con:request><![CDATA[<?xml version="1.0" encoding="UTF-8"?>\r
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soapenv:Header />\r
+   <soapenv:Body>\r
+      <ser:Con_Stroka>\r
+         <!--Optional:-->\r
+         <ser:x>Test</ser:x>\r
+         <!--Optional:-->\r
+         <ser:y>String</ser:y>\r
+      </ser:Con_Stroka>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>\r]]></con:request>
+        <con:assertion type="Valid HTTP Status Codes" id="2cca4a11-6a1e-4148-ab33-0c6f4ddce586" name="Valid HTTP Status Codes">
+          <con:settings/>
+          <con:configuration>
+            <codes>200</codes>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Response SLA Assertion" id="3031f15f-d53b-4331-93b7-6f8e850a124a" name="Response SLA">
+          <con:configuration>
+            <SLA>200</SLA>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="SOAP Fault Assertion" id="5b5d398e-304f-45fd-a4db-4d0f926a3190" name="Not SOAP Fault"/>
+        <con:assertion type="Schema Compliance" id="5cecb1e6-b176-4402-b0ab-42d98c51b132" name="Schema Compliance">
+          <con:configuration/>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Con_Stroka"/>
+        <con:wsrmConfig version="1.2"/>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasourceloop" name="DataSource Loop" id="258706f3-bdd3-4553-a237-540672354b55">
+    <con:settings/>
+    <con:config>
+      <dataSourceStep>DataSource</dataSourceStep>
+      <targetStep>SOAP Request</targetStep>
+      <discardResults>true</discardResults>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:breakPoints>
+    <con:testStepId>81b1480f-799b-4bb9-af51-0dfea628129d</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+</con:testCase>

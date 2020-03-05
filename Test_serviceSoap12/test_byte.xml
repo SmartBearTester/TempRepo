@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="29e80659-c6ca-4860-a7c0-46e0f26a372e" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_byte" name="test_byte" bindingOperationName="test_byte" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="29e80659-c6ca-4860-a7c0-46e0f26a372efileName">test_byte</con:setting>
+  </con:settings>
+</con:operation>

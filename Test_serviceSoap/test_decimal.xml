@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="422524c2-a0a9-49f8-83be-d72f5bc2acc6" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_decimal" name="test_decimal" bindingOperationName="test_decimal" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="422524c2-a0a9-49f8-83be-d72f5bc2acc6fileName">test_decimal</con:setting>
+  </con:settings>
+</con:operation>

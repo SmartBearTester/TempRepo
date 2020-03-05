@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="c96e7927-7272-43b7-ab0a-143271b82854" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_complex_class" name="test_complex_class" bindingOperationName="test_complex_class" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c96e7927-7272-43b7-ab0a-143271b82854fileName">test_complex_class</con:setting>
+  </con:settings>
+</con:operation>

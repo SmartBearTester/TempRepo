@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="108828c4-2648-4400-b09f-889e06ffba21" isOneWay="false" action="http://localhost/test_service/Service1.asmx/InputDate" name="InputDate" bindingOperationName="InputDate" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="108828c4-2648-4400-b09f-889e06ffba21fileName">InputDate</con:setting>
+  </con:settings>
+</con:operation>

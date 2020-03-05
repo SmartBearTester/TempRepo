@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="01f9a1c7-4acb-44db-8f1f-806a89f6b4ab" isOneWay="false" action="http://localhost/test_service/Service1.asmx/transfer_array" name="transfer_array" bindingOperationName="transfer_array" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="01f9a1c7-4acb-44db-8f1f-806a89f6b4abfileName">transfer_array</con:setting>
+  </con:settings>
+</con:operation>

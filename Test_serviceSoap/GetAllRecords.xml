@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="dadc9748-9bdf-4170-8547-61bd47c0e95d" isOneWay="false" action="http://localhost/test_service/Service1.asmx/GetAllRecords" name="GetAllRecords" bindingOperationName="GetAllRecords" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="dadc9748-9bdf-4170-8547-61bd47c0e95dfileName">GetAllRecords</con:setting>
+  </con:settings>
+</con:operation>

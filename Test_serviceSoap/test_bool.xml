@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="ce599bea-b4e5-40f0-b001-82d9d372379c" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_bool" name="test_bool" bindingOperationName="test_bool" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ce599bea-b4e5-40f0-b001-82d9d372379cfileName">test_bool</con:setting>
+  </con:settings>
+</con:operation>

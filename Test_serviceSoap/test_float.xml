@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="2d3a2f90-40c5-4b98-a52b-f46d8abc70d1" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_float" name="test_float" bindingOperationName="test_float" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="2d3a2f90-40c5-4b98-a52b-f46d8abc70d1fileName">test_float</con:setting>
+  </con:settings>
+</con:operation>

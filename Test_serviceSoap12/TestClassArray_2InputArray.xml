@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="d69e0a15-a0a8-4f42-a7a9-685dade4eb3b" isOneWay="false" action="http://localhost/test_service/Service1.asmx/TestClassArray_2InputArray" name="TestClassArray_2InputArray" bindingOperationName="TestClassArray_2InputArray" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="d69e0a15-a0a8-4f42-a7a9-685dade4eb3bfileName">TestClassArray_2InputArray</con:setting>
+  </con:settings>
+</con:operation>

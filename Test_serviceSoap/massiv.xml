@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="2c0412b6-3f33-4df0-890d-53cc2940c22c" isOneWay="false" action="http://localhost/test_service/Service1.asmx/massiv" name="massiv" bindingOperationName="massiv" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="2c0412b6-3f33-4df0-890d-53cc2940c22cfileName">massiv</con:setting>
+  </con:settings>
+</con:operation>

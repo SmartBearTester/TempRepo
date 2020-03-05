@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="c5f790bf-b41b-4bf1-881e-6b7d96188c53" isOneWay="false" action="http://localhost/test_service/Service1.asmx/Stroka" name="Stroka" bindingOperationName="Stroka" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c5f790bf-b41b-4bf1-881e-6b7d96188c53fileName">Stroka</con:setting>
+  </con:settings>
+</con:operation>

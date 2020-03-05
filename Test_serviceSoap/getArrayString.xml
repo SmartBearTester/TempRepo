@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="042990f2-73f1-437f-af40-4f6e9dad6894" isOneWay="false" action="http://localhost/test_service/Service1.asmx/getArrayString" name="getArrayString" bindingOperationName="getArrayString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="042990f2-73f1-437f-af40-4f6e9dad6894fileName">getArrayString</con:setting>
+  </con:settings>
+</con:operation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="99b6fd23-5174-459a-b0fb-fb1787c78176" isOneWay="false" action="http://localhost/test_service/Service1.asmx/HelloWorld" name="HelloWorld" bindingOperationName="HelloWorld" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="99b6fd23-5174-459a-b0fb-fb1787c78176fileName">HelloWorld</con:setting>
+  </con:settings>
+</con:operation>

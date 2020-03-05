@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="7820ed78-a0d6-4edb-80d0-bfc961d513df" isOneWay="false" action="http://localhost/test_service/Service1.asmx/Ran" name="Ran" bindingOperationName="Ran" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="7820ed78-a0d6-4edb-80d0-bfc961d513dffileName">Ran</con:setting>
+  </con:settings>
+</con:operation>
